@@ -231,21 +231,19 @@ input:-webkit-autofill
 }
 
 
-/* DESLOCAMENTO CONTEÚDO ATRÁS DO CONTENT:BEFORE*/
 .sign-in-js .first-content .second-column {
 
     z-index: -1;
     position: relative;
-    animation: deslocamentoEsq 1s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+    animation: deslocamentoEsq 1s; 
 }
 
 .sign-up-js .second-content .second-column {
     position: relative;
     z-index: -1;
-    animation: deslocamentoDir 1s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+    animation: deslocamentoDir 1s; 
 }
 
-/*ANIMAÇÃOO CSS PARA O CONTEÚDO*/
 
 @keyframes deslocamentoEsq {
 
@@ -295,7 +293,6 @@ input:-webkit-autofill
 }
 
 
-/*ANIMAÇÃO CSS*/
 
 @keyframes slidein {
 
@@ -353,7 +350,6 @@ input:-webkit-autofill
     }
 }
 
-/*VERSÃO MOBILE*/
 @media screen and (max-width: 1040px) {
     .content {
         width: 100%;
@@ -386,8 +382,6 @@ input:-webkit-autofill
         width: 90%;
     }
     
-    /* ANIMAÇÃO MOBILE CSS*/
-
     @keyframes deslocamentoEsq {
 
         from {
